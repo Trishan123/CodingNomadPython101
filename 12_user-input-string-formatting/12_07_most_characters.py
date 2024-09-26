@@ -8,3 +8,8 @@
 #
 # Example Output:
 #     9, greetings
+user1 = input("first word: ")
+user2 = input("second word: ")
+user3 =  input("third word: ")
+
+print(user1)
