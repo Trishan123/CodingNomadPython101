@@ -14,3 +14,13 @@
 # Start with a small folder to make it easy to check whether your program is
 # working correctly. Then search a bigger folder.
 # This program should work for any specified folder on your computer.
+from pathlib import Path
+desktop = Path().home().joinpath("Desktop")
+for f in desktop.iterdir(): 
+    if f.is_dir():
+
+        for sub_f in f.iterdir():
+            if sub_f.suffix == ".jpg":
+                print(sub_f.absolute()) 
+    elif f.suffix == ".jpg":
+        print(f.absolute())

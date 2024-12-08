@@ -2,4 +2,4 @@
 # with the help of string slicing.
 
 palindrome = "too bad i hid a boot"
-print(palindrome[-3])
+print(palindrome[-1::-1])

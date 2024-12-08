@@ -9,7 +9,7 @@
 # Typing out code, even if you just copy it, trains your coding skills!
 # Write your code below:
 import random
-num = random.randit(1, 10)
+num = random.randint(1, 10)
 guess = None
 
 while guess != num:

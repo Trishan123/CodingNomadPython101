@@ -4,5 +4,5 @@
 # 	Yeehaw!
 # 	Coding here I come!
 print("I'm a programmer now.")
-print("Yeehaw!")
+print("Yeehaw")
 print("Coding here I come!")
