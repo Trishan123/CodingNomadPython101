@@ -8,19 +8,15 @@
 #
 # Example Output:
 #     9, greetings
-user1 = input("first word: ")
-user2 = input("second word: ")
-user3 = input("third word: ")
+word1 = input("Please write a word ")
+word2 = input("Please write a word ")
+word3 = input("Please write a word ")
 
-
-len_user1 = len(user1)
-len_user2 =  len(user2)
-len_user3 = len(user3)
-
-
-if len_user1 > len_user2 and len_user1 > len_user3:
-    print(str(len_user1) + ", "  + user1)
-elif len_user2 > len_user1 and len_user2 > len_user3:
-    print((len_user2), user2)
+if len(word1) > len(word2) and len(word1) > len(word3):
+    lon_word = word1
+elif len(word2) > len(word3):
+    lon_word = word2
 else:
-    print(len_user3, user3)
+    lon_word = word3
+#print(str(len(lon_word)) + ", " + lon_word)
+print(f"{len(lon_word)}, {lon_word}")

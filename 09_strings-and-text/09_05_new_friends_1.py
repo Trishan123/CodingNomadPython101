@@ -1,2 +1,3 @@
 # Write code that produces a SyntaxError when you run this script.
-'hello"
+print("Hello world' 
+      #this is a syntaxerror so the code will not run

@@ -6,13 +6,14 @@
 # 4) Use two variables to perform a multiplication.
 #
 # What information is lost during which conversions?
-sum = 5 * 2.0 # I am adding the total for int to become a float
-tum = 2.0  #I am assigning float
-wum = int(tum) #now I am changing float to tum with an int assign to it
-lum = 10.0 / 5 # I am dividing float to an in
-aum = 2 * 5 # I am using two different variables to perform multi
 
-print(sum)
-print(wum)
-print(lum)
-print(aum)
+x = 5
+y = 2.5
+
+div = 6.0 / 2 
+mun = x * y
+
+print(float(x)) #I am taking the int num to a float num
+print(int(y)) # taking a float num to int 
+print(div) # making a / for a float and a int
+print(mun) # took the var to make * 

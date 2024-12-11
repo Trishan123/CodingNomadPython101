@@ -22,12 +22,14 @@
 # * * *
 #
 # HINT: Think of nested for loops!
-
-stars = 5  # You can change this to any number for a different size pyramid
-
-# Outer loop for each row
-for i in range(1, stars + 1):
-    # Inner loop to print stars on the current row
+stars = 5 # variable = 5, that's how many starts I need, by 1 line and so forth
+"""for i in range(1, stars +1 ): 
     for j in range(i):
-        print("*", end=" ")  # Print star with a space, but don't go to a new line
-    print()  # Move to the next line after each row
+        print("*", end=" ")
+    print()
+"""
+
+
+
+for i in range(1, stars +1):
+    print("* " * i)

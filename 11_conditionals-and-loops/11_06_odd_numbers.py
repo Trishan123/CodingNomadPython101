@@ -1,6 +1,4 @@
 # Using a `for` loop, print out all odd numbers from 1 to 100.
-for number in range(1, 100):
-    if number % 2 !=0:
-        print(number)
-    
-    
+for i in range(1, 101):
+    if i % 2 == 1:
+        print(i)

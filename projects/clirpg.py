@@ -65,3 +65,7 @@ while dragon_is_slain != True:
             location = hallway
 
 print("hooray " + player + " you have won the game")
+
+# fight or leave
+# while loop for dragon room
+# having the sword matters

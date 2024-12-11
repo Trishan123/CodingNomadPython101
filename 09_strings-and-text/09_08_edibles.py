@@ -7,14 +7,9 @@
 
 s = "They grappled with their leggins before going to see the buttercups flourish."
 
-# Extracting the food items using string slicing
-apple = s[7:12]    # 'apple'
-egg = s[26:29]     # 'egg'
-butter = s[57:63]  # 'butter'
-flour = s[68:73]   # 'flour'
-
-# Print the extracted words
-print(apple)   # Output: apple
-print(egg)     # Output: egg
-print(butter)  # Output: butter
-print(flour)   # Output: flour
+print(len(s)) # I needed to know the amount of letters and space 
+print(s [7:12]) # I manually counted them to get this number
+print(s [26:29]) # I manually counted them to get this number
+print(s [57:63])
+print(s [63:68])
+print(s [68:73])

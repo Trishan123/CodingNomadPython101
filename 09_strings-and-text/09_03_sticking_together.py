@@ -4,15 +4,13 @@
 
 glue = "superglue"
 fingers = "fingers"
-p = "proton "
-n = "neutron "
+p = "proton"
+n = "neutron"
 pb = "peanutbutter"
 teeth = "teeth"
 gum = "gum"
-shoe = " shoe "
+shoe = "shoe"
 song = "spice girls: wannabe"
 body_part = "your ear"
 
-print(glue + fingers)
-print(p + n + shoe)
-print(song + gum + teeth)
+print(p[0:3] + n[3:7] + gum[0:3]) # I combined the words and spliced them seperatly and so I can make up my own word

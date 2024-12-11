@@ -34,7 +34,7 @@ flag = True
 
 if flag == True:
     print("left")
-
+flag = False
 if flag == False:
     print("straight ahead")
 
@@ -49,9 +49,6 @@ if flag == True:
 
 if flag == True:
     print("straight ahead")
-
-# Set flag to False to avoid the DEAD END
-flag = False
 
 if flag == True:
     print("DEAD END")
@@ -62,15 +59,12 @@ if flag == True:
 if flag == False:
     print("right")
 
-# Set flag back to True to continue the path
+if flag == True:
+    print("straight ahead")
+
+if flag == False:
+    print("straight ahead")
 flag = True
-
-if flag == True:
-    print("straight ahead")
-
-if flag == False:
-    print("straight ahead")
-
 if flag == False:
     print("DEAD END")
 
@@ -79,15 +73,21 @@ if flag == True:
 
 if flag == True:
     print("straight ahead")
-
+flag = False
 if flag == True:
     print("left")
-
-# Set flag to False to reach the EXIT
-flag = False
 
 if flag == False:
     print("EXIT!!")
 
 if flag == True:
     print("DEAD END")
+
+#left 
+#straight ahead
+#straight ahead
+#right
+#straight ahead 
+#right
+#Straight ahead
+#Exit

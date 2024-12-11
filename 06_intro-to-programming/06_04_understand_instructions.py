@@ -2,6 +2,4 @@
 # and implement the instructions below:
 #
 # Pass the value 100 as an argument to the print() function.
-pass
-value = 100
-print(value)
+print(100) # I am writing the print function 100 because that's what is asking me

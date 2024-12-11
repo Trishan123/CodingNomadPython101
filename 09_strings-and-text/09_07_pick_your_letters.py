@@ -3,15 +3,4 @@
 # the necessary letters from the given string.
 
 word = "tweezers "
-
-# Build the sentence using indexing
-message = (
-    word[1] + word[2] +          # 'w' + 'e' -> 'we'
-    word[8] +                    # ' '       -> 'we '
-    word[7] + word[5] + word[2] +# 's' + 'e' + 'e' -> 'see'
-    word[8] +                    # ' '       -> 'we see '
-    word[0] + word[6] + word[3] + word[5] + word[7] # 't' + 'r' + 'e' + 'e' + 's' -> 'trees'
-)
-
-print(message)
-
+print(word [1:3] + " " + word[7:8] + word[2:4] + " " + word[0:1] + word[6:7] + word[2:4] + word[9:10] + word[7:8]) 

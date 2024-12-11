@@ -6,6 +6,3 @@
 # Break this task up into a couple of steps of pseudocode
 # and write the pseudocode below in code comments.
 # You don't need to write any functional code, just map out the steps.
-
-# Hello everyone I am giving away kitten
-#Reach me at his number 555-555-5555

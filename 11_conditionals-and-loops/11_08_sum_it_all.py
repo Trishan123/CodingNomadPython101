@@ -5,9 +5,8 @@
 #      The sum is: 5050
 
 start = 1
-stop = 100
-total = 0
-
-for number in range(start, stop + 1):
-    total += number
-print("The sum is: ", total)
+stop = 101
+sum = 0
+for i in range(start, stop):
+    sum += i
+print("The sum is: " + str(sum))

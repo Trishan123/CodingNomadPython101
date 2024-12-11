@@ -12,7 +12,5 @@ the GFDL. In other words, you may distribute a Derived Work unless that componen
 states in the page you re-use, you must (i) comply with Section 3C, to characterization of the 
 Base Interpreter, then, wherever this component of the Covered Code."""
 
-if "spy " in terms_of_service:
-    print("The TOS is spying on you")
-else:
-    print("No mentioning of spy")
+spy = "spy" in terms_of_service
+print(spy)

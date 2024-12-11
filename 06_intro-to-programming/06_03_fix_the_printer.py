@@ -3,4 +3,4 @@
 # How can you fix the code below to successfully print "xerox"
 # to your console?
 
-print("xerox")
+print("xerox") #by putting quotation marks it in the print allows the word to printed because it is a string

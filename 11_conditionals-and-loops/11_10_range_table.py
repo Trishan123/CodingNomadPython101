@@ -6,8 +6,11 @@
 # 20 21 22 23 24 25 26 27 28 29
 # 30 31 32 33 34 35 36 37 38 39
 # 40 41 42 43 44 45 46 47 48 49
+for i in range(0, 10):
+    print(i)
 
-for number in range(0, 50):
-    print(number, end=' ')
-    if (number + 1) % 10 == 0:
-        print()  # Newline after every 10 numbers
+for i in range(10, 20):
+    print(i)
+
+for i in range(20,30):
+    print(i)

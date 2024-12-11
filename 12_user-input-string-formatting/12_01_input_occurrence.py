@@ -4,11 +4,5 @@
 # String input: hello world
 # Letter input: o
 # Result: 4
-
-user_input = input("String input: ")
-letter_input = input("Letter input: ")
-
-user_input.find(letter_input)
-
-print(user_input.find(letter_input))
-
+word = input("Please enter word ")
+print("Result: ", len(word[:4]))

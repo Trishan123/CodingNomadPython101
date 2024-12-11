@@ -11,7 +11,6 @@
 wrong = False
 right = True
 
-# Using all three logical operators in one line to get a boolean result
-result = not (wrong or wrong) and right
-
-print(f"Do two wrongs make a right? {result}")
+#print(wrong and wrong)
+print(not( wrong and wrong) or right )
+#print(right is True or False)

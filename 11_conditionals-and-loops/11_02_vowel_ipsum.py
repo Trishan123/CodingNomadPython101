@@ -8,16 +8,8 @@ voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
 mollit anim id est laborum."""
 
-# Define the vowels
-vowels = 'aeiouAEIOU'
+vowels = "aeiou" # I am creating a variable to look through the vowels in this sentence
 
-# Initialize the counter
-vowel_count = 0
-
-# Iterate over each character in the text
-for char in lorem_ipsum:
-    if char in vowels:
-        vowel_count += 1
-
-# Print the total number of vowels
-print("The total number of vowels in the text is:", vowel_count)
+for count_vowels in vowels: # this is a for loop to keep counting until I get the exact vowels I need
+   
+   print(count_vowels, lorem_ipsum.lower().count(count_vowels)) # this is supposed to be print statement of my vowels

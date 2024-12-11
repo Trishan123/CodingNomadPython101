@@ -3,4 +3,4 @@
 width = 2.4
 height = 6.4
 area = width * height
-print(area)
+print(area) # I assigned width and height to the number and then have area = w * h

@@ -2,4 +2,5 @@
 # using a shorthand assignment.
 
 shorthands = 1
-print(shorthands + 1)
+shorthands += 1
+print(shorthands)

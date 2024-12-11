@@ -3,5 +3,5 @@
 # Print out the result.
 radius = 3.14
 height = 5
-area = radius * height
-print(area)
+cylinder = radius * height
+print(cylinder) #I am doing the same formula for cyl = rad * hei
